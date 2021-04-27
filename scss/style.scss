@@ -1,0 +1,65 @@
+* {padding: 0;margin: 0;border: 0;}
+*, *:before, *:after {box-sizing: border-box;}
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header, aside {display: block;}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;}
+input, button, textarea {font-family: inherist;}
+input:-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;}
+
+
+body{
+  background: rgb(254 251 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.title{
+  border-bottom: 1px solid rgb(104 96 102);
+  font-family: "Saira Extra Condensed";
+  font-weight: 700;
+  color: rgb(104 96 102);
+}
+.title__text{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.item{
+  display: flex;
+  margin: 10px;
+  &__text{
+    width: 230px;
+    text-align: right;
+    font-size: 16px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    color: rgb(104 96 102);
+    margin: 7px 10px 0px 0px;
+  }
+}
+.date, .airport{
+  width: 216px;
+  height: 30px;
+  border: 1px solid rgb(206 205 203);
+  border-radius: 4px;
+  padding-left: 5px;
+  font-family: Arial;
+}

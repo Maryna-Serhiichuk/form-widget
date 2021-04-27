@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Document</title>
+
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="form">
+			<div class="container">
+				<div class="title">
+					<div class="title__text">
+						One-Way Airlines: Let's make a reservation
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__text">
+						Pick a departure date
+					</div>
+					<div class="input-one">
+						<input class="date" type="text" name="date">
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__text">
+						Find an airport
+					</div>
+					<div class="input-two">
+						<input class="airport" type="text" name="airport">
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__text">
+						Meal Options
+					</div>
+					<div class="select-menu">
+						<select name="speed" id="speed">
+							<option>No meal</option>
+							<option>Breakfast</option>
+							<option>Breakfast and Dinner</option>
+						</select>   
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__text">
+						Number of bags to check
+					</div>
+					<div class="radio">
+						<fieldset>
+							<label for="radio-1">0</label>
+							<input type="radio" name="radio-1" id="radio-1" class="input">
+							<label for="radio-2">1</label>
+							<input type="radio" name="radio-1" id="radio-2" class="input">
+							<label for="radio-3">2</label>
+							<input type="radio" name="radio-1" id="radio-3" class="input">
+						</fieldset>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__text">
+						Type of seat you'd like
+					</div>
+					<div class="checkbox">
+						<fieldset>
+							<label for="checkbox-1">Aisle</label>
+							<input type="checkbox" name="checkbox-1" id="checkbox-1" class="input">
+							<label for="checkbox-2">Window</label>
+							<input type="checkbox" name="checkbox-2" id="checkbox-2" class="input">
+							<label for="checkbox-3">Exit Row</label>
+							<input type="checkbox" name="checkbox-3" id="checkbox-3" class="input">
+							<label for="checkbox-4">Any Seat</label>
+							<input type="checkbox" name="checkbox-4" id="checkbox-4" class="input">
+						</fieldset>
+					</div>
+				</div>
+				<div class="button item">
+					<div class="item__text"></div>
+					<div class="widget">
+						<button>Continue reservation process</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- JS -->
+		<script src="js/button.js"></script>
+		<script src="js/autocomplete.js"></script>
+		<script src="js/selectmenu.js"></script>
+		<script src="js/inputs.js"></script>
+	</body>
+</html>
